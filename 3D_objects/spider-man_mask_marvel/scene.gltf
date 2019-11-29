@@ -1,0 +1,310 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1986,
+      "max": [
+        0.082510501146316528,
+        0.2395341694355011,
+        0.039373859763145447
+      ],
+      "min": [
+        -0.082293905317783356,
+        -9.1988840722478926e-05,
+        -0.039447221904993057
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 23832,
+      "componentType": 5126,
+      "count": 1986,
+      "max": [
+        0.98345106840133667,
+        0.99671995639801025,
+        0.99991029500961304
+      ],
+      "min": [
+        -0.99576288461685181,
+        -0.99538701772689819,
+        -0.99975895881652832
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1986,
+      "max": [
+        0.99971681833267212,
+        0.99992436170578003,
+        0.91608148813247681,
+        1
+      ],
+      "min": [
+        -0.98331111669540405,
+        -0.99946880340576172,
+        -0.99835819005966187,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 31776,
+      "componentType": 5126,
+      "count": 1986,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1986,
+      "max": [
+        0.99814033508300781,
+        0.98487669229507446
+      ],
+      "min": [
+        0.00097465887665748596,
+        0.00097465887665748596
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 15888,
+      "componentType": 5126,
+      "count": 1986,
+      "max": [
+        0.99814033508300781,
+        0.98487669229507446
+      ],
+      "min": [
+        0.00097465887665748596,
+        0.00097465887665748596
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 9030,
+      "max": [
+        1985
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "David Wigforss (https://sketchfab.com/dwigfor)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/spider-man-mask-marvel-7880db9d474a499f9e802170a9aa8a26",
+      "title": "Spider-Man Mask (Marvel)"
+    },
+    "generator": "Sketchfab-6.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 36120,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 31776,
+      "byteOffset": 36120,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 47664,
+      "byteOffset": 67896,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 63552,
+      "byteOffset": 115560,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 179112,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/MAT_Mask_Marvel_SpiderMan_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/MAT_Mask_Marvel_SpiderMan_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "MAT_Mask_Marvel_SpiderMan",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95770514946237739
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "geo1_MAT_Mask_Marvel_SpiderMan_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4,
+            "TEXCOORD_1": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "mesh.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "geo1"
+    },
+    {
+      "mesh": 0,
+      "name": "geo1_MAT_Mask_Marvel_SpiderMan_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
